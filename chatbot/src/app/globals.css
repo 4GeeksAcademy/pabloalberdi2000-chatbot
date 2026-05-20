@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inner-glow-primary {
+  box-shadow: 0 0 0 2px #EADDFF;
+}
+
+.status-pulse {
+  @apply relative flex items-center;
+}
+
+.status-pulse::before {
+  /* Puedes agregar estilos aquí si es necesario */
+}
